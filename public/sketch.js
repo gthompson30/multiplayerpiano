@@ -116,7 +116,7 @@ function setup() {
   background(255);
   // noCursor();
 
-  socket = io.connect('https://2ab3aa4224fa.ngrok.io') // server link goes here
+  socket = io.connect('https://d6b282a8b635.ngrok.io') // server link goes here
   socket.on('mouse', newDrawing);
   socket.on('note', playNotes);
   pointer.resize(21, 30);
